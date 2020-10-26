@@ -1,0 +1,27 @@
+[
+    {
+        "id": "question_1",
+        "label": "Who is the president of the United States?",
+        "monitor": false,
+        "type": "short"
+    },
+    {
+        "id": "question_2",
+        "label": "Write a letter destined to this president (2-3 lines)",
+        "monitor": true,
+        "type": "development",
+        "min": 50,
+        "max": 150
+    },
+    {
+        "id": "question_3",
+        "label": "Who was the vice president of the United States in 2012?",
+        "monitor": false,
+        "type": "multi",
+        "choices": [
+            {"title" : "Trump"},
+            {"title" : "Obama"},
+            {"title" : "Biden"}
+        ]
+    }
+]

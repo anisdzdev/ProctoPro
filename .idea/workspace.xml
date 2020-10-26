@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:public" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:public" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:public/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d65629b8-b37b-4e7d-a46d-64e5b18429d5" name="Default Changelist" comment="Edited README">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/typing_dna.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/actions/examActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/actions/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/actions/userActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/exam/ExamContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/exam/ExamPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/fields/examFields.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/initiate/InitiateForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/initiate/InitiatePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/login/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/login/LoginPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/signup/SignupForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/signup/SignupPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/reducers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/rootReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tdna/typingdna.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/utils/ProgressProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/utils/checkifAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/utils/requireAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/utils/requireInit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/utils/setAuthorizationToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/custom-environment-variables.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/bin/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/bin/key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/exams/practice_exam.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/exams/xmlfile_1600983845925-332405174.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/dna_check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/dna_delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/dna_register_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/dna_register_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/dna_register_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/exam_model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/submission_model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/user_model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/css/util.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/iconic/css/material-design-iconic-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/iconic/css/material-design-iconic-font.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/fonts/poppins/Poppins-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/images/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/animate/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/animsition/css/animsition.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/animsition/css/animsition.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/animsition/js/animsition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/animsition/js/animsition.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/bootstrap/js/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/countdowntime/countdowntime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/daterangepicker/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/daterangepicker/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/vendor/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/exams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/submissions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/startup/base_config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/startup/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/startup/logging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/startup/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/startup/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/submissions/practice_exam.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/views/error.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/views/layout.jade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.dev.js" afterDir="false" />
+    </list>
+    <list id="f5e29e8a-f004-4546-ba2e-246fc3623ab7" name="Revert: Worked on ExamContent.js" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="c2e3e768-8a93-4746-8edc-8f89a3c306d8" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iO6k4hObawWnPw8TlTDS9zKx4z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/screenshots" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Anis\Documents\Work\Projects\Hackathon\typing_dna\screenshots" />
+      <recent name="D:\Anis\Documents\Work\Projects\Hackathon\typing_dna\server\submissions" />
+      <recent name="D:\Anis\Documents\Work\Projects\Hackathon\typing_dna\source\server\exams" />
+      <recent name="D:\Anis\Documents\Work\Projects\Hackathon\typing_dna\source\server\middleware" />
+      <recent name="D:\Anis\Documents\Work\Projects\Hackathon\typing_dna\source\client\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Anis\Documents\Work\Projects\Hackathon\typing_dna\server\bin" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start both" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d65629b8-b37b-4e7d-a46d-64e5b18429d5" name="Default Changelist" comment="" />
+      <changelist id="f5e29e8a-f004-4546-ba2e-246fc3623ab7" name="Revert: Worked on ExamContent.js" comment="" />
+      <created>1601766432076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601766432076</updated>
+      <workItem from="1601766435345" duration="356000" />
+      <workItem from="1601766802099" duration="11433000" />
+      <workItem from="1601833454513" duration="2125000" />
+      <workItem from="1601850163061" duration="14370000" />
+      <workItem from="1601917541339" duration="5249000" />
+      <workItem from="1601930452889" duration="11000" />
+      <workItem from="1601938956210" duration="2114000" />
+      <workItem from="1601951531057" duration="4232000" />
+      <workItem from="1601990296544" duration="2232000" />
+      <workItem from="1601992716151" duration="255000" />
+      <workItem from="1602081074798" duration="242000" />
+      <workItem from="1602081401458" duration="50000" />
+      <workItem from="1602170965118" duration="3397000" />
+      <workItem from="1602186264682" duration="4110000" />
+      <workItem from="1602190761906" duration="152000" />
+      <workItem from="1602196680957" duration="13671000" />
+      <workItem from="1602261237636" duration="28000" />
+      <workItem from="1602283708232" duration="7141000" />
+      <workItem from="1602384272215" duration="7597000" />
+      <workItem from="1602434533448" duration="9411000" />
+      <workItem from="1602472033593" duration="2099000" />
+      <workItem from="1602522996923" duration="7767000" />
+      <workItem from="1602543649031" duration="7879000" />
+      <workItem from="1602557400318" duration="293000" />
+      <workItem from="1602604918602" duration="5755000" />
+      <workItem from="1602613655973" duration="1101000" />
+      <workItem from="1602634851501" duration="649000" />
+      <workItem from="1602779111629" duration="1304000" />
+      <workItem from="1602866399244" duration="607000" />
+      <workItem from="1602871223429" duration="799000" />
+      <workItem from="1602877169717" duration="8000" />
+      <workItem from="1603038063782" duration="1555000" />
+      <workItem from="1603040585315" duration="2197000" />
+      <workItem from="1603043575403" duration="7552000" />
+      <workItem from="1603074363678" duration="3288000" />
+      <workItem from="1603138269298" duration="242000" />
+      <workItem from="1603142277995" duration="2226000" />
+      <workItem from="1603154386286" duration="6294000" />
+      <workItem from="1603205668728" duration="5445000" />
+      <workItem from="1603292847065" duration="2696000" />
+      <workItem from="1603296711474" duration="1836000" />
+      <workItem from="1603304823901" duration="605000" />
+      <workItem from="1603308457354" duration="5286000" />
+      <workItem from="1603320541398" duration="2680000" />
+      <workItem from="1603420912610" duration="695000" />
+      <workItem from="1603512743496" duration="4283000" />
+      <workItem from="1603595364752" duration="1384000" />
+      <workItem from="1603642943850" duration="1723000" />
+      <workItem from="1603731887183" duration="177000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fixed intellij bug">
+      <created>1601766830966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601766830966</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Worked on ExamContent.js">
+      <created>1601856977040</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601856977040</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Worked on ExamContent.js">
+      <created>1601990366034</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601990366034</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Worked on Exam Page">
+      <created>1602174294139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602174294139</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed Saoud's error">
+      <created>1602190785195</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602190785195</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed Saoud's error">
+      <created>1602190896932</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602190896932</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implemented DNA in exam">
+      <created>1602216704624</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602216704624</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implemented DNA in exam">
+      <created>1602284616451</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602284616452</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implemented alert on leave page&#10;Prevented access from mobile&#10;User can only submit once&#10;Added timed exams&#10;Added event when exam is started">
+      <created>1602543834896</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602543834896</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added Dark mode in exam page">
+      <created>1602554834044</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602554834044</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fixed bug">
+      <created>1602557677562</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602557677562</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Dark mode in exam page">
+      <created>1602874865148</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602874865148</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added Dark mode in exam page">
+      <created>1603043167448</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603043167448</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Dark mode in exam page">
+      <created>1603043791331</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603043791331</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added Dark mode in exam page">
+      <created>1603043897100</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603043897100</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added Dark mode in exam page">
+      <created>1603044621043</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603044621043</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixed Login Error">
+      <created>1603047923155</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603047923155</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Code Cleanup">
+      <created>1603051234686</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603051234686</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added Submission Directory">
+      <created>1603078064774</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603078064775</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fixed bug in signup page">
+      <created>1603144736594</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603144736595</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Code Cleanup">
+      <created>1603166819954</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1603166819954</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Code Cleanup">
+      <created>1603208870090</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1603208870090</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Code Cleanup">
+      <created>1603209621932</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1603209621932</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Code Cleanup">
+      <created>1603209678589</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1603209678589</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Code Cleanup">
+      <created>1603209906898</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603209906898</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Code Cleanup">
+      <created>1603210517502</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1603210517502</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fixed TDNA">
+      <created>1603317686273</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1603317686273</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fixed TDNA">
+      <created>1603318057670</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603318057670</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Heroku production">
+      <created>1603320654154</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603320654154</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Code Cleanup">
+      <created>1603322136091</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1603322136091</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Code Cleanup">
+      <created>1603322347997</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1603322347997</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Code Cleanup">
+      <created>1603322604747</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1603322604747</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Code Cleanup">
+      <created>1603322793350</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603322793350</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Code Cleanup">
+      <created>1603323825044</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1603323825044</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Added screenshot">
+      <created>1603512841639</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1603512841639</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Edited README">
+      <created>1603516764638</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1603516764638</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Updated Exams and Readme">
+      <created>1603596661171</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1603596661171</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Edited Readme">
+      <created>1603648941222</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1603648941222</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Edited Readme">
+      <created>1603649075712</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1603649075712</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/Anis/Documents/Work/Projects/Hackathon/typing_dna/server/views" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="public/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Fixed intellij bug" />
+    <MESSAGE value="Worked on ExamContent.js" />
+    <MESSAGE value="Worked on Exam Page" />
+    <MESSAGE value="Fixed Saoud's error" />
+    <MESSAGE value="Implemented DNA in exam" />
+    <MESSAGE value="Implemented alert on leave page&#10;Prevented access from mobile&#10;User can only submit once&#10;Added timed exams&#10;Added event when exam is started" />
+    <MESSAGE value="fixed bug" />
+    <MESSAGE value="Added Dark mode in exam page" />
+    <MESSAGE value="Fixed Login Error" />
+    <MESSAGE value="Added Submission Directory" />
+    <MESSAGE value="Fixed bug in signup page" />
+    <MESSAGE value="Fixed TDNA" />
+    <MESSAGE value="Heroku production" />
+    <MESSAGE value="Code Cleanup" />
+    <MESSAGE value="Added screenshot" />
+    <MESSAGE value="Edited README" />
+    <MESSAGE value="Updated Exams and Readme" />
+    <MESSAGE value="Edited Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited Readme" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="512" y="236" key="#Notifications" timestamp="1601915257450">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="512" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1601915257450" />
+    <state x="389" y="53" key="#Plugins" timestamp="1603648433255">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="389" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1603648433255" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1602171013691">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1602171013691" />
+    <state x="263" y="38" width="1089" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603218852469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="263" y="38" width="1089" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603218852469" />
+    <state x="530" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603209450724">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1603209450724" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602081188646">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1602081188646" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603048582397">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603048582397" />
+    <state x="418" y="226" key="EditFileWatcherDialog" timestamp="1603051013083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="226" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1603051013083" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1603047463874">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603047463874" />
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1603319593833">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603319593833" />
+    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1603319593833">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603319593833" />
+    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1603319593832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603319593832" />
+    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1603319593833">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603319593833" />
+    <state width="1245" height="242" key="GridCell.Tab.1.bottom" timestamp="1603051524522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1245" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603051524522" />
+    <state width="1245" height="242" key="GridCell.Tab.1.center" timestamp="1603051524522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1245" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603051524522" />
+    <state width="1245" height="242" key="GridCell.Tab.1.left" timestamp="1603051524522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1245" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603051524522" />
+    <state width="1245" height="242" key="GridCell.Tab.1.right" timestamp="1603051524522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1245" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603051524522" />
+    <state width="1245" height="242" key="GridCell.Tab.2.bottom" timestamp="1603051524523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1245" height="242" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603051524523" />
+    <state width="1245" height="242" key="GridCell.Tab.2.center" timestamp="1603051524523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1245" height="242" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1603051524523" />
+    <state width="1245" height="242" key="GridCell.Tab.2.left" timestamp="1603051524523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1245" height="242" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1603051524523" />
+    <state width="1245" height="242" key="GridCell.Tab.2.right" timestamp="1603051524523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1245" height="242" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1603051524523" />
+    <state width="1245" height="242" key="GridCell.Tab.3.bottom" timestamp="1603051524523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1245" height="242" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603051524523" />
+    <state width="1245" height="242" key="GridCell.Tab.3.center" timestamp="1603051524523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1245" height="242" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1603051524523" />
+    <state width="1245" height="242" key="GridCell.Tab.3.left" timestamp="1603051524523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1245" height="242" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1603051524523" />
+    <state width="1245" height="242" key="GridCell.Tab.3.right" timestamp="1603051524523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1245" height="242" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1603051524523" />
+    <state x="147" y="64" key="MergeDialog" timestamp="1602171071971">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="64" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1602171071971" />
+    <state x="407" y="173" key="MultipleFileMergeDialog" timestamp="1603648878643">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="173" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1603648878643" />
+    <state x="484" y="114" key="RollbackChangesDialog" timestamp="1603648251050">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="114" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603648251050" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1603043635144">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603043635144" />
+    <state x="503" y="109" key="VCS.ChangeListViewerDialog" timestamp="1601915079406">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="503" y="109" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1601915079406" />
+    <state x="618" y="324" key="VCS.ChangelistChooser" timestamp="1601915051834">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="324" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1601915051834" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603649098606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603649098606" />
+    <state x="573" y="146" key="VcsDiffUtil.ChangesDialog" timestamp="1603165665056">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="573" y="146" key="VcsDiffUtil.ChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603165665056" />
+    <state x="418" y="153" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603078020076">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="153" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1603078020076" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603649011054">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1603649011054" />
+    <state x="510" y="219" width="1134" height="573" key="dock-window-1" timestamp="1601773451100">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="219" width="1134" height="573" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1601773451100" />
+    <state x="310" y="89" key="editAsTableFormatDialogDimension" timestamp="1603048123266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="310" y="89" key="editAsTableFormatDialogDimension/0.0.1536.824@0.0.1536.824" timestamp="1603048123266" />
+    <state x="756" y="178" width="579" height="564" key="find.popup" timestamp="1603049138470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="756" y="178" width="579" height="564" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603049138470" />
+    <state x="567" y="313" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603643510088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="567" y="313" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603643510088" />
+    <state x="209" y="32" key="new project wizard" timestamp="1603138505113">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="32" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1603138505113" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1602470240242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602470240242" />
+    <state x="610" y="224" key="save.file.as.template.dialog" timestamp="1602202837541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="610" y="224" key="save.file.as.template.dialog/0.0.1536.824@0.0.1536.824" timestamp="1602202837541" />
+    <state x="279" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603648420061">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603648420061" />
+  </component>
+</project>
