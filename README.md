@@ -142,7 +142,7 @@ npm run start
 
 * [Anis Brachemi](https://github.com/anisdzdev): Fullstack development of the application
 * [Saoud Messaoudi](https://github.com/saoudmessaoudi): Backend and Database Developer
-* [Kassem Elzoghbi](https://github.com/NvmKassem): Frontend developer
+* [Kassem El-Zoghbi](https://github.com/NvmKassem): Frontend developer
 * [Lucas Cimino](https://github.com/lucas-cimino): Security management
 * [Holy Mouaya](https://github.com/Holy-Mouaya): Design and Visual
 
