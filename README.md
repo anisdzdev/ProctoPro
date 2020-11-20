@@ -10,7 +10,7 @@ Exam proctoring - TypingDNA Hackathon app
   <img src="server/public/images/icon.png" alt="Logo" width="80" height="80">
   <p align="center">
     <br />
-    <a href="https://novem.dev/">View Demo</a>
+    <a href="https://proctopro.novem.dev/">View Demo</a>
     ·
     <a href="https://exam-proctorer.herokuapp.com/">Alternative link</a>
   </p>
