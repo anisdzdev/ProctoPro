@@ -150,7 +150,7 @@ npm run start
 <!-- CONTACT -->
 ## Contact
 
-Anis Brachemi - [@anis.brachemi](https://www.instagram.com/anis.brachemi/) - anis@novem.dev
+Anis Brachemi - [@anis.brachemi](https://www.instagram.com/anis.brachemi/) - anis@novem.dev <br>
 Saoud Messaoudi - [@saoudsss](https://www.instagram.com/saoudsss/) - saoud@novem.dev
 
 
